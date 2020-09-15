@@ -10,6 +10,7 @@ class Dog
   
   def bark= (bark_sound)
     @this_dog_sound = bark_sound
+    puts "Woof!"
   end
   
   def bark
