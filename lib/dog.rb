@@ -8,13 +8,12 @@ class Dog
     @this_dogs_name
   end
   
-  def bark= (bark_sound)
-    @this_dog_sound = bark_sound
-    puts "Woof!"
+  def initialize
+    bark
   end
   
   def bark
-    @this_dog_sound
+    puts "Woof!"
   end
 end
   
@@ -22,4 +21,3 @@ fido = Dog.new
 fido.name = "Fido"
 fido.name
 
-fido.bark
